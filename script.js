@@ -1,6 +1,6 @@
 // Google Sheets Configuration
 // The GOOGLE_SCRIPT_URL is loaded from env.js (which is ignored by Git)
-let GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwoUbhH6D6QIZP1coK3LgypD2tlQiAJCapKafeGerc6j690tyzKG_wVCz9CdR_iIqYP/exec';
+let GOOGLE_SCRIPT_URL = '';
 
 /**
  * Ensures global configuration is available
@@ -290,4 +290,5 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 const revealElements = document.querySelectorAll('.reveal');
 revealElements.forEach(el => revealObserver.observe(el));
+
 
